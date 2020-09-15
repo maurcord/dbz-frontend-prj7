@@ -4,8 +4,8 @@ import { baseurl } from "./constants.js";
 import axios from "axios";
 import "./App.css";
 // import NameForm from "./NameForms";
-import UpdateDelete from './UpdateDeleteForm';
-import PersonList from './Post'
+import DeleteChar from './DeleteForm';
+import PersonList from './PostForm'
 
 class App extends Component {
   constructor(props) {
@@ -36,7 +36,7 @@ class App extends Component {
         <PersonList/>
         </div>
          <div className='updateDelete'>
-         <UpdateDelete/>
+         <DeleteChar/>
        </div>
         {this.state.characters.map((characters) => {
           return (
