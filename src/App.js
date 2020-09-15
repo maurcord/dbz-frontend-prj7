@@ -33,20 +33,26 @@ class App extends Component {
     return (
       <div className="app">
         <h1 className='header'>Welcome to my DBZ page!</h1>
+        
         <div>
         <AddForm/>
         </div>
+        
         <div>
           <UpdateForm/>
         </div>
+        
          <div className='updateDelete'>
          <DeleteChar/>
        </div>
+       
+       <div className='characters'>
         {this.state.characters.map((characters) => {
           return (
-            <Characters key={characters.alpha3Code} name={characters.name}/>
+            <Characters name={characters.name}/>
           );
         })}
+        </div>
       </div>
     );
   }
