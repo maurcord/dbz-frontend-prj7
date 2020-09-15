@@ -37,7 +37,40 @@
   }
 }
 
-.welcome {
+.app {
+  background-color: orange;
+  color: blue;
   text-align: center;
-  border: 5px solid black
+}
+.header {
+        font-size: 50px;
+        text-decoration: underline;
+        /* text-shadow: black 2px 2px 5px; */
+
+}
+
+.characterBox {
+  border: 5px solid black;
+  width: 200px;
+  height: auto;
+  color: orange;
+  background-color: blue;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.nameForm {
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 200px;
+}
+.updateDelete {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

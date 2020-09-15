@@ -3,6 +3,8 @@ import Characters from "./Character";
 import { baseurl } from "./constants.js";
 import axios from "axios";
 import "./App.css";
+import NameForm from "./NameForms";
+import UpdateDelete from './UpdateDeleteForm'
 
 class App extends Component {
   constructor(props) {
@@ -27,11 +29,19 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <h1>Welcome to my DBZ page!</h1>
+      <div className="app">
+        <h1 className='header'>Welcome to my DBZ page!</h1>
+        <div className="nameForm">
+          <NameForm/>
+        </div>
+       <div className='updateDelete'>
+         <UpdateDelete/>
+       </div>
+        
+        
         {this.state.characters.map((characters) => {
           return (
-            <Characters key={characters.alpha3Code} name={characters.name} />
+            <Characters key={characters.alpha3Code} name={characters.name}/>
           );
         })}
       </div>
