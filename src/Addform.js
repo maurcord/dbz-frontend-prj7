@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import { baseurl } from './constants';
 
-export default class PersonList extends React.Component {
+export default class AddForm extends React.Component {
   state = {
     name: '',
   }
@@ -12,14 +12,16 @@ export default class PersonList extends React.Component {
   }
 
   handleSubmit = event => {
-    alert("new character added to DBZ world")
+    console.log("new character added to DBZ world")
     event.preventDefault();
 
     const user = {
-      name: this.state.name
+      name: this.state.name,
+      // description: this.state.description,
+      // imageUrl: this.state.imageUrl
     };
 
-    axios.post(`${baseurl}`, { user })
+    axios.post(`https://project-6-dbz.herokuapp.com/characters/`, { user })
       .then(res => {
         console.log(res);
         console.log(res.data);

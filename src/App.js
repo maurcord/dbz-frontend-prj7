@@ -3,9 +3,10 @@ import Characters from "./Character";
 import { baseurl } from "./constants.js";
 import axios from "axios";
 import "./App.css";
-// import NameForm from "./NameForms";
+import UpdateForm from "./UpdateForm";
 import DeleteChar from './DeleteForm';
-import PersonList from './PostForm'
+import PersonList from './Addform'
+import AddForm from "./Addform";
 
 class App extends Component {
   constructor(props) {
@@ -33,7 +34,10 @@ class App extends Component {
       <div className="app">
         <h1 className='header'>Welcome to my DBZ page!</h1>
         <div>
-        <PersonList/>
+        <AddForm/>
+        </div>
+        <div>
+          <UpdateForm/>
         </div>
          <div className='updateDelete'>
          <DeleteChar/>
