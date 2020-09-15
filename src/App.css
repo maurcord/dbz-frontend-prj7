@@ -73,9 +73,20 @@
   margin-bottom: 20px;
   height: 200px;
 }
-.updateDelete {
+.add {
   margin-top: 10px;
   margin-bottom: 10px;
+  text-align: center;
+}
+.update {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.delete {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 .characters {
 display: flex;

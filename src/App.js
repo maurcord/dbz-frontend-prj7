@@ -34,15 +34,15 @@ class App extends Component {
       <div className="app">
         <h1 className='header'>Welcome to my DBZ page!</h1>
         
-        <div>
+        <div className='add'>
         <AddForm/>
         </div>
         
-        <div>
+        <div className='update'>
           <UpdateForm/>
         </div>
         
-         <div className='updateDelete'>
+         <div className='delete'>
          <DeleteChar/>
        </div>
        
