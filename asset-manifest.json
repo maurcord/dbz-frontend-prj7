@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/maurcord/Project-7/static/css/main.3682b041.chunk.css",
-    "main.js": "/maurcord/Project-7/static/js/main.1a5118a7.chunk.js",
-    "main.js.map": "/maurcord/Project-7/static/js/main.1a5118a7.chunk.js.map",
-    "runtime-main.js": "/maurcord/Project-7/static/js/runtime-main.b73ac463.js",
-    "runtime-main.js.map": "/maurcord/Project-7/static/js/runtime-main.b73ac463.js.map",
-    "static/js/2.7ad0f09b.chunk.js": "/maurcord/Project-7/static/js/2.7ad0f09b.chunk.js",
-    "static/js/2.7ad0f09b.chunk.js.map": "/maurcord/Project-7/static/js/2.7ad0f09b.chunk.js.map",
-    "index.html": "/maurcord/Project-7/index.html",
-    "precache-manifest.d5b4d0211c3dff50ef46cd256b003b77.js": "/maurcord/Project-7/precache-manifest.d5b4d0211c3dff50ef46cd256b003b77.js",
-    "service-worker.js": "/maurcord/Project-7/service-worker.js",
-    "static/css/main.3682b041.chunk.css.map": "/maurcord/Project-7/static/css/main.3682b041.chunk.css.map",
-    "static/js/2.7ad0f09b.chunk.js.LICENSE.txt": "/maurcord/Project-7/static/js/2.7ad0f09b.chunk.js.LICENSE.txt"
+    "main.css": "/maurcord/dbz-frontend-prj7/static/css/main.b710611e.chunk.css",
+    "main.js": "/maurcord/dbz-frontend-prj7/static/js/main.0b7b03f5.chunk.js",
+    "main.js.map": "/maurcord/dbz-frontend-prj7/static/js/main.0b7b03f5.chunk.js.map",
+    "runtime-main.js": "/maurcord/dbz-frontend-prj7/static/js/runtime-main.b72a8a52.js",
+    "runtime-main.js.map": "/maurcord/dbz-frontend-prj7/static/js/runtime-main.b72a8a52.js.map",
+    "static/js/2.8399e419.chunk.js": "/maurcord/dbz-frontend-prj7/static/js/2.8399e419.chunk.js",
+    "static/js/2.8399e419.chunk.js.map": "/maurcord/dbz-frontend-prj7/static/js/2.8399e419.chunk.js.map",
+    "index.html": "/maurcord/dbz-frontend-prj7/index.html",
+    "precache-manifest.27ce4ef0c5351da03e44859c8c789b8c.js": "/maurcord/dbz-frontend-prj7/precache-manifest.27ce4ef0c5351da03e44859c8c789b8c.js",
+    "service-worker.js": "/maurcord/dbz-frontend-prj7/service-worker.js",
+    "static/css/main.b710611e.chunk.css.map": "/maurcord/dbz-frontend-prj7/static/css/main.b710611e.chunk.css.map",
+    "static/js/2.8399e419.chunk.js.LICENSE.txt": "/maurcord/dbz-frontend-prj7/static/js/2.8399e419.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b73ac463.js",
-    "static/js/2.7ad0f09b.chunk.js",
-    "static/css/main.3682b041.chunk.css",
-    "static/js/main.1a5118a7.chunk.js"
+    "static/js/runtime-main.b72a8a52.js",
+    "static/js/2.8399e419.chunk.js",
+    "static/css/main.b710611e.chunk.css",
+    "static/js/main.0b7b03f5.chunk.js"
   ]
 }
